@@ -34,7 +34,6 @@ class App extends Component {
   getDetails(event) {
     var temp = event.target.value
     this.setState({number: temp},()=>{
-      // console.log(this.state);
     })
   }
   componentDidMount = async() =>{
@@ -53,7 +52,6 @@ class App extends Component {
           tifOptions.push(<option key={key} value={key}>{key.substring(3,)}</option>)
         }        
      });
-     console.log(this.state.result +" simha");
      if(this.state.loading){
         return(
           <div>
@@ -73,7 +71,7 @@ class App extends Component {
               onChange = {this.getDetails}
               name="Mobile"
             >
-              <option className="options" selected disabled value=''>Mobile Number</option>
+              <option className="options" key='' selected disabled value=''>Mobile Number</option>
               {tifOptions}
             </select>
           </div>
