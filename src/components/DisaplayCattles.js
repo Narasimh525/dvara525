@@ -14,7 +14,7 @@ class DisplayCattles extends Component{
         this.getDetails=this.getDetails.bind(this)
     }
     getDetails(key){
-        this.setState({key:key,checked:key},()=>{console.log(this.props.cattle.cattles[this.state.key]);})
+        this.setState({key:key,checked:key},()=>{})
     }
     render(){
         if(this.props.cattle){
