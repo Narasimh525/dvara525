@@ -34,7 +34,7 @@ class DisplayCattles extends Component{
                 <div>
                     <h2>Here! is the List of the Cattles</h2>
                     {/* <RadioGroup row><Radio />{tifOptions}<Radio /></RadioGroup> */}
-                    <div style={{marginTop:"-1%"}}>
+                    <div>
                         {tifOptions}
                     </div>
                     <DisplayCattleInfo details={this.props.cattle.cattles[this.state.key]}/>
