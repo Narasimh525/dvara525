@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #009fbb8f;
+  background-color: #009991;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@
 
 .select-box{
   /* display: flex; */
-  width: 300px;
+  width: max-content;
   position: relative;
   margin-left: 40%;
   margin-top:1%;

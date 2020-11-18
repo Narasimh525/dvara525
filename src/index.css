@@ -35,7 +35,7 @@ tr{
 .div-parent {
   display: flex;
   /* height: 7vh; */
-  background-color: #009991;
+  background-color: #029e96;
   margin:2% 2% 2% 2%;
   border-radius: 5px;
 }
@@ -45,11 +45,18 @@ tr{
 }
 
 .div-child {
-  text-align: center;
   font-size: 1.2em;
-  /* font-family: cursive; */
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
   margin:2% 2% 2% 2%;
   flex: 3; /*grow*/
   border: 1px solid;
   border: 0px;
+}
+#child1{
+  text-align: right;
+}
+#child2{
+  text-align: left;
+  color: azure;
 }
