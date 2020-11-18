@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card-container{
+  width:40%;
+  height: 380px;
+  background: #f3f0f0;
+  border-radius: 6px;
+  position: absolute;
+  top: 68%;
+  bottom: 1%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0px 1px 5px 1px #000;
+}
+.upper-container{
+  height: 50px;
+  background-color:gray;
+}
+tr{
+  padding-bottom: 2em;
+}
+
